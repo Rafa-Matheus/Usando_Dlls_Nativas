@@ -1,5 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <Reference Include = "Dll_VisualStudio_Testing">
+      <HintPath>lib\Dll_VisualStudio_Testing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
